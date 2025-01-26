@@ -1,0 +1,66 @@
+/*the position & background & colors*/
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+}
+.navbar-black {
+    background-color: #10101d !important;
+    color: white;
+  }
+  
+  .navbar-black .navbar-brand,
+  .navbar-black .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-black .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  /*the search*/
+  .btn-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #FFC107; 
+    color: #1A1A2E; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px #FFC107; 
+  }
+  /*the search button*/
+  .btn-search:hover {
+    background-color: #f0bb1e; 
+    transform: translateY(-2px); 
+    box-shadow: 0 0 15px #00E5FF; 
+  }
+  
+  .btn-search:active {
+    transform: translateY(0); 
+  }
+/*the logo*/
+  
+  #brand-name {
+    font-family: serif; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #E8EAF6; 
+    text-decoration: none; 
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  #brand-name:hover {
+    color: #00E5FF; 
+    text-shadow: 0 0 10px #00E5FF; 
+  }
+  
+  .brand-yellow {
+    color: #FFC107; 
+    text-shadow: 0 0 10px #FFC107; 
+  }

@@ -1,0 +1,96 @@
+.hero-section {
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #1A1A2E; 
+    background-image: radial-gradient(circle, #7E57C2 1px, transparent 1px), 
+                      radial-gradient(circle, #7E57C2 1px, transparent 1px);
+    background-size: 20px 20px; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/digaitaal_currency.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    mask: linear-gradient(to right, transparent 20%, black 40%, black 60%, transparent 80%); 
+    z-index: 1;
+  }
+  
+  /* Our Content */
+  .hero-content {
+    position: relative;
+    z-index: 2; 
+    background-color: rgba(26, 26, 46, 0.7); 
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  /* Our Contract */
+  .hero-contract {
+    position: relative;
+    z-index: 2; 
+    background-color: rgba(26, 26, 46, 0.7); 
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem; 
+    font-family: serif; 
+    color: #FFC107; 
+    margin: 0 0 10px;
+    text-shadow: 0 0 10px #FFC107; 
+  }
+  
+  .hero-tagline {
+    font-size: 1.5rem; 
+    font-family: sans-serif; 
+    color: #E8EAF6; 
+    margin: 0 0 20px;
+  }
+  
+  .buy-now-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    background-color: #FFC107; 
+    color: #1A1A2E; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-button:hover {
+    background-color: #F57F17; 
+  }
+  /* Copy Message */
+.copy-message {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #00E5FF; 
+    margin-top: 10px;
+    text-shadow: 0 0 10px #00E5FF; 
+    animation: fadeOut 2s ease-in-out; 
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
