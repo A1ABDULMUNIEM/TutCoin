@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/heroSection.css';
+import '../styles/herosection.css';
 
 function HeroSection() {
   const [isCopied, setIsCopied] = useState(false); // State to track if text is copied
