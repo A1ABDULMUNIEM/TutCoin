@@ -1,5 +1,5 @@
 import { FaTwitter, FaDiscord, FaTelegram, FaInstagram } from 'react-icons/fa'; // Import icons
-import '../styles/socialMediaLinks.css';
+import '../styles/socialmedialinks.css';
 
 function SocialMediaLinks() {
   const socialMedia = [
