@@ -18,7 +18,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="hero-section">
+    <div className="hero-section" id='my-hero-section'>
       {/* First Div: Hero Content */}
       <div className="hero-content">
         {/* Title */}

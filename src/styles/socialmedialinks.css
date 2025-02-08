@@ -53,7 +53,9 @@
   /*the join now button*/
   .join-button {
     margin-top: 30px;
-    padding: 15px 30px;
+    margin-right: 5px;
+    padding: 10px 20px; /* Adjust padding for a better fit */
+    width: auto; /* Auto width based on content */
     font-size: 1.2rem;
     font-family: sans-serif;
     background: linear-gradient(to right, #7E57C2, #26A69A); 
@@ -62,8 +64,28 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    display: inline-block; /* Prevents unnecessary stretching */
+    white-space: nowrap; /* Ensures it doesn’t break into multiple lines */
+}
+
+.join-button:hover {
+    background: linear-gradient(to right, #6A1B9A, #009688); 
+}
+
+
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
   }
   
-  .join-button:hover {
-    background: linear-gradient(to right, #6A1B9A, #009688); 
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
+  

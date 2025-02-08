@@ -2,8 +2,8 @@
     width: 100vw; 
     height: 100vh; 
     background-color: #1A1A2E; 
-    background-image: radial-gradient(circle, #7E57C2 1px, transparent 1px), 
-                      radial-gradient(circle, #7E57C2 1px, transparent 1px);
+    background-image: radial-gradient(circle, #ad57c2 1px, transparent 1px), 
+                      radial-gradient(circle, #ad57c2 1px, transparent 1px);
     background-size: 20px 20px; 
     margin: 0;
     padding: 0;
