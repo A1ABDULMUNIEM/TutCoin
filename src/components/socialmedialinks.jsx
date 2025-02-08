@@ -99,7 +99,6 @@ function SocialMediaLinks() {
       </div>
       <h1 className="join-button">TUTC/SOL</h1>
       {/* Display the target date in an h1 heading */}
-      <h1 className="join-button">Target Date: {formattedTargetDate}</h1>
       {/* Use the CountdownTimer component with the targetDate prop */}
       <CountdownTimer targetDate={targetDate} />
       <h2>Follow Us</h2>
